@@ -1,0 +1,197 @@
+header {
+    width: 100%;
+    height: 700px;
+    background: url("../img/log-bg.jpg");
+    background-position: 50%;
+    background-size: auto 100%;
+    position: relative;
+}
+
+.logo {
+    width: 300px;
+    height: 57px;
+    left: 60px;
+    position: absolute;
+    top: 30px;
+}
+
+header .box {
+    width: 360px;
+    height: 400px;
+    background: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    padding-top: 40px;
+}
+
+.top {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.top a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+.top a:hover {
+    color: #36b447;
+    border-bottom: 1px solid #36b447;
+}
+
+.span1 {
+    width: 113px;
+    height: 25px;
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+
+form {
+    width: 300px;
+    height: 230px;
+    margin: 0 auto;
+}
+
+form p {
+    width: 290px;
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+form input {
+    width: 280px;
+    height: 30px;
+    border: none;
+}
+
+.p1,
+.p2 {
+    padding-left: 10px;
+}
+
+.submit {
+    background: #22ac69;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/* 提示 */
+
+.tishi {
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    color: red;
+}
+
+.left,
+.right {
+    margin: 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+form a:hover {
+    color: #22ac69;
+}
+
+
+/* 其他登录方式 */
+
+.other {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.others {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
+.others a {
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+}
+
+.others .iconfont {
+    font-size: 30px!important;
+}
+
+.qq {
+    color: #4e9ff9;
+}
+
+.wx {
+    color: #5ec12a;
+}
+
+.wb {
+    color: #f65d6b;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.foot1 .main {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.foot1 a {
+    width: 226px;
+    height: 80px;
+    color: #58cfa6;
+    padding-left: 44px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.foot1 a:hover {
+    color: #36b447;
+    background-color: #ecfef8;
+}
+
+.foot1 .iconfont {
+    float: left;
+    font-size: 44px;
+    line-height: 80px;
+    padding-right: 12px;
+}
+
+.foot1 h3 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.foot1 p {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.foot2 {
+    color: #999;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    text-align: center;
+}

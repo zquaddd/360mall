@@ -1,0 +1,40 @@
+@charset "utf-8";
+html {
+    width: 100%;
+}
+
+
+/* 首页版心 */
+
+.main {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+
+/* 列表页版心 */
+
+.list-main {
+    width: 1240px;
+    margin: 0 auto;
+    /* background: lightcyan; */
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearFixed:after {
+    /*清除浮动导致的高度塌陷*/
+    content: ".";
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    clear: both;
+}

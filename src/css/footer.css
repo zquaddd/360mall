@@ -1,0 +1,112 @@
+footer .floor1 {
+    height: 320px;
+    padding-top: 60px;
+    background: #fff;
+}
+
+footer .floor1 .help-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    height: 50px;
+}
+
+footer .floor1 li {
+    margin-bottom: 8px;
+}
+
+footer .floor1 a {
+    color: #666;
+}
+
+footer .floor1 .help1 {
+    width: 270px;
+    height: 246px;
+}
+
+footer .floor1 .help1 .help-text {
+    height: 120px;
+    color: #666;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+}
+
+footer .floor1 .help1 .about {
+    padding-top: 20px;
+}
+
+footer .floor1 .help1 .about .iconfont {
+    font-size: 30px;
+    color: #333;
+    margin-left: 20px;
+}
+
+footer .floor1 .help2 {
+    width: 140px;
+    height: 246px;
+    margin-left: 60px;
+}
+
+footer .floor1 .help3 {
+    width: 140px;
+    height: 246px;
+    margin-left: 50px;
+}
+
+footer .floor1 .help4 {
+    width: 150px;
+    height: 246px;
+    margin-left: 40px;
+}
+
+footer .floor1 .help5 {
+    width: 239px;
+    height: 246px;
+    margin-left: 60px;
+    border-left: 1px solid black;
+    padding-left: 30px;
+}
+
+footer .floor1 .help5 .help-title {
+    text-align: center;
+}
+
+footer .floor1 .help5 .tel {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+footer .floor1 .help5 .text {
+    color: #999;
+}
+
+footer .floor2 {
+    height: 200px;
+    background: #333;
+    color: white;
+}
+
+footer .floor2 .serv {
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid #666;
+    margin-bottom: 10px;
+}
+
+footer .floor2 .iconfont {
+    font-size: 24px;
+}
+
+footer .floor2 a {
+    color: white;
+    font-size: 24px;
+    margin-left: 150px;
+}
+
+footer .floor2 .foot {
+    text-align: center;
+}
+
+footer .floor2 .foot .gray {
+    color: rgba(255, 255, 255, 0.5);
+}

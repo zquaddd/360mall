@@ -1,0 +1,53 @@
+@charset "utf-8";
+.nav2 {
+    height: 102px;
+    padding-top: 30px;
+    .box1 {
+        height: 36px;
+        line-height: 36px;
+        img {
+            width: 180px;
+            height: 36px;
+            margin-right: 20px;
+        }
+        ul li {
+            float: left;
+            margin-left: 30px;
+            font-size: 20px;
+            a {
+                color: black;
+            }
+        }
+        .search {
+            width: 370px;
+            height: 34px;
+            border-radius: 17px;
+            padding-left: 30px;
+            border: 1px solid lightgrey;
+            padding-right: 10px;
+            i {
+                font-size: 20px;
+            }
+        }
+        input {
+            width: 340px;
+            height: 20px;
+            border: none;
+        }
+    }
+    .box2 {
+        height: 36px;
+        line-height: 36px;
+        ul {
+            margin-right: 50px;
+        }
+        ul li {
+            float: right;
+            margin-left: 20px;
+            a {
+                color: gray;
+                font-size: 13px;
+            }
+        }
+    }
+}

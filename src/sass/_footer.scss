@@ -1,0 +1,95 @@
+@charset "utf-8";
+footer {
+    // height: 566px;
+    .floor1 {
+        height: 320px;
+        padding-top: 60px;
+        .help-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            height: 50px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #666;
+        }
+        .help1 {
+            width: 270px;
+            height: 246px;
+            .help-text {
+                height: 120px;
+                color: #666;
+                font-size: 14px;
+                border-bottom: 1px solid black;
+            }
+            .about {
+                padding-top: 20px;
+                .iconfont {
+                    font-size: 30px;
+                    color: #333;
+                    margin-left: 20px;
+                }
+            }
+        }
+        .help2 {
+            width: 140px;
+            height: 246px;
+            margin-left: 60px;
+        }
+        .help3 {
+            width: 140px;
+            height: 246px;
+            margin-left: 50px;
+        }
+        .help4 {
+            width: 150px;
+            height: 246px;
+            margin-left: 40px;
+        }
+        .help5 {
+            width: 239px;
+            height: 246px;
+            margin-left: 60px;
+            border-left: 1px solid black;
+            padding-left: 30px;
+            .help-title {
+                text-align: center;
+            }
+            .tel {
+                font-size: 28px;
+                font-weight: bold;
+            }
+            .text {
+                color: #999;
+            }
+        }
+    }
+    .floor2 {
+        height: 200px;
+        background: #333;
+        color: white;
+        .serv {
+            height: 80px;
+            line-height: 80px;
+            border-bottom: 1px solid #666;
+            margin-bottom: 10px;
+        }
+        .iconfont {
+            font-size: 24px;
+        }
+        a {
+            color: white;
+            font-size: 24px;
+            margin-left: 150px;
+        }
+        .foot {
+            text-align: center;
+            .gray {
+                color: rgba(255, 255, 255, .5);
+            }
+        }
+    }
+}

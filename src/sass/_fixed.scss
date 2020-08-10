@@ -1,0 +1,32 @@
+.leftMenu {
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+    display: none;
+    ul {
+        box-shadow: 0 0 3px 0 #ddd
+    }
+    li {
+        width: 80px;
+        background: white;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        border-bottom: 1px solid #eee;
+        color: #666;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    li:hover {
+        color: red;
+        font-weight: bold;
+        background: #f6f6f6;
+        transition: 0.2s all linear;
+    }
+    .active {
+        color: red;
+        font-weight: bold;
+        background: #f6f6f6;
+        transition: 0.2s all linear;
+    }
+}

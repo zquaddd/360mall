@@ -1,0 +1,390 @@
+header nav {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background: black;
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  font-size: 14px;
+}
+header nav a {
+  color: white;
+}
+header nav ul.left li {
+  float: left;
+  margin-right: 20px;
+}
+header nav ul.right li {
+  float: right;
+  margin-left: 20px;
+}
+
+.back {
+  width: 100%;
+  height: 40px;
+}
+
+.nav2 {
+  height: 102px;
+  padding-top: 30px;
+}
+.nav2 .box1 {
+  height: 36px;
+  line-height: 36px;
+}
+.nav2 .box1 img {
+  width: 180px;
+  height: 36px;
+  margin-right: 20px;
+}
+.nav2 .box1 ul li {
+  float: left;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.nav2 .box1 ul li a {
+  color: black;
+}
+.nav2 .box1 .search {
+  width: 370px;
+  height: 34px;
+  border-radius: 17px;
+  padding-left: 30px;
+  border: 1px solid lightgrey;
+  padding-right: 10px;
+}
+.nav2 .box1 .search i {
+  font-size: 20px;
+}
+.nav2 .box1 input {
+  width: 340px;
+  height: 20px;
+  border: none;
+}
+.nav2 .box2 {
+  height: 36px;
+  line-height: 36px;
+}
+.nav2 .box2 ul {
+  margin-right: 50px;
+}
+.nav2 .box2 ul li {
+  float: right;
+  margin-left: 20px;
+}
+.nav2 .box2 ul li a {
+  color: gray;
+  font-size: 13px;
+}
+
+.banner {
+  width: 100%;
+  height: 530px;
+  position: relative;
+}
+.banner .lunbo li {
+  opacity: 0;
+}
+.banner .lunbo li img {
+  width: 100%;
+  height: 530px;
+  position: absolute;
+}
+.banner .main {
+  height: 530px;
+  position: relative;
+}
+.banner .main ol {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+}
+.banner .main ol li {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  float: left;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.banner .main ol .active {
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  background: rgba(255, 255, 255, 0.8);
+}
+.banner .main .zuo,
+.banner .main .you {
+  width: 42px;
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+  font-size: 30px;
+  display: block;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  cursor: pointer;
+}
+.banner .main .zuo:hover,
+.banner .main .you:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+.banner .main .zuo {
+  position: absolute;
+  left: 250px;
+  top: 50%;
+}
+.banner .main .you {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+}
+.banner .main .list {
+  width: 250px;
+  height: 530px;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.banner .main .list p {
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.43);
+}
+.banner .main .list p a {
+  color: white;
+}
+.banner .main .list ul li {
+  height: 48px;
+  line-height: 48px;
+}
+.banner .main .list ul a {
+  color: white;
+  display: block;
+  padding-left: 40px;
+}
+.banner .main .list ul .active {
+  background: rgba(0, 0, 0, 0.4);
+}
+.banner .main .menu {
+  width: 930px;
+  height: 480px;
+  position: absolute;
+  top: 0;
+  left: 250px;
+  padding-top: 50px;
+  padding-left: 50px;
+  display: none;
+  background: rgba(255, 255, 255, 0.96);
+}
+.banner .main .menu .title {
+  float: left;
+  font-weight: bold;
+  color: #666;
+  width: 70px;
+  height: 24px;
+  border-right: 1px solid black;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.banner .main .menu .title:hover {
+  color: #aaa;
+}
+.banner .main .menu .menu3 {
+  float: left;
+  width: 770px;
+}
+.banner .main .menu .menu3 a {
+  width: 30%;
+  height: 65px;
+  display: inline-block;
+}
+.banner .main .menu .menu3 a img {
+  width: 65px;
+  height: 65px;
+  float: left;
+}
+.banner .main .menu .menu3 a .title2 {
+  height: 65px;
+  line-height: 65px;
+  display: block;
+  float: left;
+  color: #666;
+}
+.banner .main .menu .menu3 a .title2:hover {
+  color: #aaa;
+}
+.banner .main .menu .item {
+  display: none;
+}
+
+.content {
+  background: #f0f0f0;
+}
+.content .title {
+  font-size: 23px;
+  height: 45px;
+  line-height: 45px;
+  color: #333;
+}
+.content .con1 a {
+  display: inline-block;
+  margin-left: 8px;
+}
+.content .con1 a:hover {
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  transition: 0.2s all ease-out;
+}
+.content .ad {
+  margin-top: 10px;
+}
+.content .con2 {
+  height: 390px;
+}
+.content .con2 .rush-item:hover,
+.content .con2 .big-img:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  transition: 0.2s all ease-out;
+}
+.content .con2 .rush-item {
+  width: 430px;
+  height: 160px;
+  border-radius: 5px;
+  background: white;
+  margin-left: 13px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.content .con2 .rush-item img {
+  width: 160px;
+}
+.content .con2 .rush-item .detail {
+  margin-left: 15px;
+}
+.content .con2 .rush-item .detail .tit {
+  width: 240px;
+  height: 50px;
+  display: block;
+  color: #666;
+  font-size: 18px;
+}
+.content .con2 .rush-item .detail .price {
+  font-size: 20px;
+  color: red;
+  margin-top: 20px;
+}
+.content .con2 .rush-item .btn-box {
+  width: 255px;
+  height: 35px;
+}
+.content .con2 .rush-item .btn-rush {
+  display: inline-block;
+  margin-top: 10px;
+  display: block;
+  width: 135px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  background: black;
+}
+.content .con2 .rush-item .progress {
+  display: inline-block;
+  height: 35px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.content .con2 .rush-item .progress i {
+  display: inline-block;
+  width: 60px;
+  height: 10px;
+  border: 1px solid red;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+.content .con3 .pro-box {
+  height: 900px;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+.content .con3 .product {
+  display: block;
+  width: 240px;
+  height: 280px;
+  padding: 80px 20px;
+  background: white;
+  text-align: center;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+.content .con3 .product img {
+  width: 240px;
+  height: 240px;
+}
+.content .con3 .product .pro-title1 {
+  color: black;
+  font-size: 18px;
+}
+.content .con3 .product .pro-title2 {
+  color: #999;
+}
+.content .con3 .product .pro-price {
+  color: red;
+  font-size: 20px;
+  line-height: 36px;
+  margin-top: 10px;
+}
+.content .con3 .product:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  transition: 0.2s all ease-out;
+}
+.content .bottom {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  height: 35px;
+  line-height: 35px;
+  padding: 10px 0;
+}
+
+.leftMenu {
+  position: fixed;
+  bottom: 0;
+  left: 20px;
+  display: none;
+}
+.leftMenu ul {
+  box-shadow: 0 0 3px 0 #dddddd;
+}
+.leftMenu li {
+  width: 80px;
+  background: white;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #eee;
+  color: #666;
+  font-size: 12px;
+  cursor: pointer;
+}
+.leftMenu li:hover {
+  color: red;
+  font-weight: bold;
+  background: #f6f6f6;
+  transition: 0.2s all linear;
+}
+.leftMenu .active {
+  color: red;
+  font-weight: bold;
+  background: #f6f6f6;
+  transition: 0.2s all linear;
+}
